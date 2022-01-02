@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+.navBar {
+    position: fixed; 
+    background-color: rgb(180, 180, 230);
+    width:85%;
+    left: 165px;
+    right: 165px;
+    top: 25;
+    border-radius: 25px;
+}
+.home {
+    text-decoration: none;
+    position: relative;
+    left: 11px;
+}
+.menu {
+    text-decoration: none;
+    position: relative;
+    left: 350px;
+}
+.about {
+    text-decoration: none;
+    position: relative;
+    left: 700px;
+}
+
+
+
+.blogPost {
+    display: inline-block;
+    background-color: white;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    text-size-adjust: smaller;
+}
+.blogPost h3 {
+    position:relative;
+    font-size:x-large
+}
+.blogPost span {
+    position:relative;
+    font-size: smaller;
+}
+
+.imgDisplay {
+    float: left;
+    height: 225px;
+    width: 350px;
+    padding: 15px;
+}

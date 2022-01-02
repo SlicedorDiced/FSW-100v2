@@ -1,0 +1,46 @@
+body { background-color: rgb(220, 253, 253);
+}
+
+.headlines {
+    color: green;
+    font-family: Georgia;
+    text-align: center;
+}
+
+h1.headlines {
+ color: Blue;
+}
+
+h4.headlines {
+    text-align: left;
+} 
+
+.paras {
+    line-height: 20px;
+}
+
+.parent b {
+    color: rgb(250, 150, 114)
+} /*  parent to child  */
+
+#nasalink {
+    text-decoration: none;
+}
+
+#nasalink:hover {
+    text-decoration: underline;
+}
+
+#likes {
+    text-transform: uppercase;
+}
+
+.imgDisplay1 {
+    float: left;
+    margin: 5px;
+    padding: 5px
+}
+
+#List {
+    list-style: disc ;
+}
