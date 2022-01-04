@@ -3,32 +3,31 @@ body {
 }
 
 
-
 .navBar {
+    display:flex;
     position: fixed; 
     background-color: rgb(180, 180, 230);
     width:85%;
-    left: 165px;
-    right: 165px;
+    margin:0 7.5%;
+    justify-content: space-around;
+    align-items: center;
     top: 25;
     border-radius: 25px;
 }
-.home {
+nav a {
+    padding:10px 0px;
     text-decoration: none;
-    position: relative;
-    left: 11px;
 }
-.menu {
-    text-decoration: none;
-    position: relative;
-    left: 350px;
-}
-.about {
-    text-decoration: none;
-    position: relative;
-    left: 700px;
+nav a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
+
+
+main {
+    padding-top: 50px;
+}
 
 
 .blogPost {
@@ -47,6 +46,7 @@ body {
     position:relative;
     font-size: smaller;
 }
+
 
 .imgDisplay {
     float: left;
