@@ -1,6 +1,4 @@
 body {
-   /* background-image: url("cottonTowels.jfif");       make table list for cruelty and quality and have the
-    checks along the table row */
     background-color: white;
     background-repeat: no-repeat;
     background-size:cover;
@@ -8,12 +6,11 @@ body {
 }
 header h1 {
     display: inline-block ;
-    position: relative;
+    position: static;
     font-size: 250%;
     font-family: 'Licorice', cursive ;
     color: black;
 }
-
 .navbar {
     font-size: 15px;
     display:flex;
@@ -31,18 +28,29 @@ nav a {
     padding: 15px 0px;
 }
 nav a:hover{
-    font-size: 200%;
     color: rgb(221, 164, 88);
     border-bottom: 1px solid black;
-
 }
-
 main { 
     padding-top: 50px;
     padding-bottom: 10px;
+    text-align: center;
+    background-color: rgba(250, 228, 207, 0.884);    
+}
+main p {
+    position: static;
+    font-weight: bold;
+    padding: 100px 0;
+    margin: 15px 10px;
+    font-family: 'Finger Paint', cursive;
+}
+span {
+    font-family: 'Finger Paint', cursive;
+    font-size: x-large;
 }
 
 .img1{
+    position:static;
     margin:10px 10px;
     padding: 10px 10px;
     float: left;
@@ -50,6 +58,7 @@ main {
     height: 500px;
 }
 .img2{
+    position: static;
     margin:10px 10px;
     padding: 10px 10px;
     float: right;
@@ -57,34 +66,22 @@ main {
     height: 500px;
 }
 .img3{
+    position: static;
     margin: 20px 10px;
     padding: 20px 10px;
     float:center;
     width:auto;
     height:500px;
 }
-main {
-    text-align: center;
-    background-color: rgba(250, 228, 207, 0.884);    
-}
 
+table{
+    justify-content:space-around;
+    margin: 0 auto;
+}
+table caption{
+    font-family: 'Finger Paint', cursive;
+}
 thead, th, tbody, td{
-    left: 40%;
     position:relative;
-    padding: 20px;
-}
-h3{
-    font-family: 'Finger Paint', cursive;
-}
-main p {
-    font-weight: bold;
-    padding: 20px 0;
-    margin: 15px 10px;
-    font-family: 'Finger Paint', cursive;
-}
-
-span {
-    font-family: 'Finger Paint', cursive;
-    padding: 10px 10px;
-    font-size: x-large;
+    padding: 15px;
 }
