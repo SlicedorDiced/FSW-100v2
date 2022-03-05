@@ -54,12 +54,12 @@ footer{
 }
 .content {
     grid-column: 2/3;
-}
-};
+
+}}
 
 @media screen and (min-width: 1366px) {
     .container{
-        grid-template-columns: minmax(150px, auto) auto ;
+        grid-template-columns: minmax(150px, auto) auto auto minmax(150px, auto) ;
 }
 .sidebar{
     grid-column: 1/2;
@@ -72,8 +72,8 @@ footer{
 }
 header, footer{
     grid-column: 1/5;
-}
-};
+
+}}
 
 
 
