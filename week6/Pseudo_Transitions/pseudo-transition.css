@@ -1,0 +1,178 @@
+* {
+    background-color: bisque;
+    margin: 25px;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.header{
+    display:flex;
+    color:coral;
+    justify-content: center;
+    flex-direction: row;
+}
+.container{
+    border-radius: 10px;
+    display:flex;
+    border: 2px solid rgb(17, 59, 87);
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+
+#box1 {
+    border-radius: 20%;
+    padding: 12px;
+    border: 2px dotted black;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:navy;
+    background-color:aquamarine;
+}
+#box1:hover {
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px dotted gold;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:black;
+    transition: background-color 900ms ease-in, border-radius 750ms ease-out ;
+}
+#box2 {
+    border-radius: 20%;
+    padding: 12px;
+    border: 2px dotted black;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:coral;
+}#box2:hover {
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px dotted white;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:blueviolet;
+    transition: background-color 900ms ease-in, border-radius 750ms ease-out ;
+}
+#box3 {
+    padding: 12px;
+    border: 2px solid black;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    color:brown;
+    background-color:deepskyblue;
+}#box3:hover {
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px dotted greenyellow;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:deeppink;
+    transition: background-color 900ms ease-in, border-radius 750ms ease-out ;
+}
+#box4 {
+    padding: 12px;
+    border: 2px dotted black;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    border-radius: 25%;
+    justify-content: center;
+    align-items: center;
+    color:darksalmon;
+    background-color:mediumpurple;
+}#box4:hover {
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px dotted black;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aqua;
+    background-color:red;
+    transition: background-color 900ms ease-in, border-radius 750ms ease-out ;
+}
+#box5 {
+    padding: 12px;
+    border: 2px dotted black;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    color:navy;
+    background-color:wheat;
+}#box5:hover {
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px solid pink;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:gold;
+    background-color:white;
+    transition: background-color 900ms ease-in, border-radius 750ms ease-out ;
+}
+#box6 {
+    padding: 12px;
+    border: 2px dotted gold;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    border-radius: 20%;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:black;
+}#box6:hover {
+    border-radius: 50%;
+    padding: 12px;
+    border: 2px dotted black;
+    margin: 13px;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color:goldenrod;
+    transition: background-color 900ms ease-in, border-radius 750ms ease-out ;
+}
