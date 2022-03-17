@@ -14,7 +14,7 @@
     border-radius: 10px;
     display:flex;
     border: 2px solid rgb(17, 59, 87);
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
 }
 

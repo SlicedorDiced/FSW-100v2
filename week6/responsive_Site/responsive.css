@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+body {
+    background: rgb(134, 134, 134);
+    margin: 30px 50px;
+    line-height: 1.4;
+}
+
+.btn {
+    background-color: rgb(39, 38, 38);
+    color: #fff;
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.main-container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+
+.nav-bar ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns:repeat(4, 1fr);
+}
+
+.nav-bar a {
+    background: #ddd;
+    display:block;
+    text-decoration: none;
+    padding: 0.8rem;
+    text-align: center;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);;
+}
+.nav-bar a:hover {
+    background: #333;
+    color: rgb(84, 144, 223);
+}
+
+
+
+.container-top {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas:
+        'mainSection mainSection top-box-a'
+        'mainSection mainSection top-box-b';
+}
+
+
+.mainSection {
+    grid-area: mainSection;
+    min-height: 400px;
+    background: url(/week6/responsive_Site/Img-RE/greenev2.jpg);
+    background-size: cover;
+    background-position:bottom;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);;
+}
+
+.mainSection h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: rgb(84, 144, 223);
+}
+.mainSection p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: rgb(14, 26, 51);
+}
+
+ 
+.top-box{
+    background: url(/week6/responsive_Site/Img-RE/greenparking.png);
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);;
+    padding: 1.5rem;
+}
+
+.top-box .price{
+    font-size: 2.5rem;
+}
+.top-box-a {
+    grid-area: top-box-a;
+}
+.top-box-b {
+    grid-area: top-box-b;
+}
+
+.info-boxes {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr)) ;
+}
+
+.box {
+    background: rgb(68, 141, 209);
+    text-align: center;
+    padding: 1.5rem 2rem;
+    box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);;
+}
+
+
+.about{
+    background: rgb(68, 141, 209);
+    box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+footer {
+    margin-top:2rem ;
+    background: rgb(68, 68, 68);
+    color: rgb(230, 225, 225);
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-top {
+        grid-template-areas: 
+            'mainSection mainSection'
+            'top-box-a top-box-b';
+    }
+    .mainSection h1 {
+        font-size: 2.5rem;
+    }
+    .about .btn {
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .nav-bar ul {
+        grid-template-columns: 1fr;
+    }
+    .about {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .container-top {
+        grid-template-areas: 
+            'mainSection'
+            'top-box-a'
+            'top-box-b';
+    }
+}
