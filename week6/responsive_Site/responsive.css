@@ -128,7 +128,7 @@ img {
 
 
 .about{
-    background: rgb(68, 141, 209);
+    background: rgb(68, 150, 231);
     box-shadow:  0 1px 5px rgba(104, 104, 104, 0.8);;
     display: grid;
     grid-gap: 30px;
